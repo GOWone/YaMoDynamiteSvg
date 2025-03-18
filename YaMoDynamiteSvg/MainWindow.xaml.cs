@@ -35,7 +35,7 @@ namespace YaMoDynamiteSvg
         private void DataCancel()
         {
             // 指定根目录
-            string rootDirectory = @"E:\GoogleDownload\icons";
+            string rootDirectory = @"ResourcePath";
 
             // 确保目标文件夹存在
             string targetDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data");
